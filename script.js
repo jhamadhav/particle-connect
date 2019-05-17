@@ -35,10 +35,10 @@ function init() {
     mouse.y = e.clientY;
   };
   particles = [];
-  num = 600; //Math.floor((h > w ? h : w) / 3);
+  num = Math.floor((h > w ? h : w) / 3);
   speed = 1.7;
   rad = 1.5;
-  conn_dis = 80;
+  conn_dis = 70;
   //console.log("width : " + w + "\nheight : " + h);
   draw();
 }
